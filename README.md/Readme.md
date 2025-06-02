@@ -11,3 +11,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 Docs: Iniciando Projeto - Adicionado arquivo README.md e um css e html que serão usados.
 
+## [0.0.2] - 2025-06-02
+
+### Added
+
+Docs: Criando menu, seções de sobre e especiliadades da clinica.
+

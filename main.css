@@ -5,6 +5,22 @@
     box-sizing: border-box;
 }
 
+/*Este seletor adicionar a fonte Merriweather ao menu, ao titulo sobre e a seção de contato*/
+/*Além de remover a propriedade do navegador de deixar "gorda" a fonte*/
+header,
+section h2,
+section h3,
+form button {
+    font-family: 'Merriweather', serif;
+    font-weight: 700;
+}
+
+/*Este seltor aplica a fonte Opens a toda a página, incluindo inputs*/
+body,input, textarea{
+    font-family: 'Roboto' , sans-serif;
+    font-weight: 400;
+}
+
 /*Este seletor altera a cor de fundo geral da página*/
 body {
     background-color: #37655F;
@@ -96,4 +112,80 @@ section p {
 /*Este seletor adiciona uma margem entre a img e o conteudo da segunda section*/
 .clinic-specialties {
     margin-left: 32px;
+}
+
+/*Este seletor limita as logos das redes socias*/
+.social-links img {
+    height: 24px;
+}
+
+/*Este seletor coloca os logos de redes um do lado do outro, além adicionar uma margem entre eles*/
+.social-links li{
+    display: inline;
+    margin-right: 8px;
+}
+
+/*Este seletor retira os riscos abaixo dos logos*/
+.social-links li a {
+    text-decoration: none;
+}
+
+/*Este seletor deixa cada subseção de contato separado em blocos*/
+#contact .container {
+    display: block;
+}
+
+/*Este seletor deixa os blocos subsções antes separados pelo seletor anterior um do lado do outro*/
+/*Além de espaçar essas subseções*/
+.contact-methods {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*Este seletor faz com que os campos do formulário fiquem um do lado do outro*/
+/*Além de limitar sua largura, seu espaçamento interno e margem inferior entre eles*/
+form input,
+form textarea,
+form button {
+    display: block;
+    width: 320px;
+    margin-bottom: 8px;
+    padding: 8px;
+}
+
+/*Este seletor impede que o textarea seja aumentado pelo usuário, além de aumentar seu tamanho*/
+form textarea {
+    resize: none;
+    height: 180px;
+}
+
+/*Este seletor adicionar uma margem aos titulos das subseções h3*/
+section h3 {
+    margin-bottom: 16px;
+}
+
+/*Este seletor adiciona a mesma cor de fundo e de escrita padrão da página ao botão*/
+/*Além de retirar sua borda preta padrão e mudar seu cursor ao passar por cima*/
+form button {
+    background-color: #1F4D3B;
+    color: #EAF7F0;
+    border: none;
+    cursor: pointer;
+}
+
+/*Este pseudo seletor faz com que a forma do cursor mude ao passar sobre o botão*/
+form button:hover {
+    background-color: #9dfad6;
+}
+
+/*Este seletor muda a cor da borda dos campos*/
+input:focus, textarea:focus{
+    outline-color: #1F4D3B;
+}
+
+/*Este seletor muda a cor de fundo do rodapé, da sua escrita e seu espaçamento*/
+footer {
+    background-color: #1F4D3B;
+    color: #EAF7F0;
+    padding: 16px 0;
 }

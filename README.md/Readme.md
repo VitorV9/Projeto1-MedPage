@@ -15,5 +15,5 @@ Docs: Iniciando Projeto - Adicionado arquivo README.md e um css e html que serã
 
 ### Added
 
-Docs: Criando menu, seções de sobre e especiliadades da clinica.
+Docs: Adicionando novas linhas e arquivos - Criando menu, seções de sobre e especiliadades da clinica.
 

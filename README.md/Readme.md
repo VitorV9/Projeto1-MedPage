@@ -17,3 +17,8 @@ Docs: Iniciando Projeto - Adicionado arquivo README.md e um css e html que serã
 
 Docs: Adicionando novas linhas e arquivos - Criando menu, seções de sobre e especiliadades da clinica.
 
+## [0.0.2] - 2025-06-02
+
+### Added
+
+Docs: Adicionando novas linhas de código - Criando seção de contato e rodapé - Finalizando projeto.

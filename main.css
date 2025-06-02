@@ -1,0 +1,99 @@
+/*Seletor resposável por resetar a página e aplicar cor de fundo geral*/
+* {
+    margin:  0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*Este seletor altera a cor de fundo geral da página*/
+body {
+    background-color: #37655F;
+    color: white;
+}
+
+/*Seletor responsável por aplicar cor de fundo e cor ao titulo Games Shop*/
+/*Além de aplicar espaçamento para os lados*/
+header {
+    padding: 16px 0;
+    background-color:  #1F4D3B;
+    color: #EAF7F0;
+}
+
+/*Seletor responsável por colocar os  links um do lado do outro e espaça-los*/
+header nav li {
+    display: inline;
+    margin-left: 16px;
+    font-size: 18px;
+    vertical-align: middle;
+}
+
+/*Seletor responsável por mudar cor dos links*/
+header nav li a {
+    color: #EAF7F0;
+    text-decoration: none;
+}
+
+/*Seletor responsável por limitar largura máxima do header, até chegar em 1280px*/
+/*Além de aplicar uma margem a ele*/
+.container {
+    max-width: 1288px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+/*Este seletor coloca o titulo e os links lado a lado e centraliza-los*/
+/*Além de espaça-los com o space between, faz tudo isso a parte sobre a loja também*/
+header .container,
+section .container{
+    display: flex;
+    align-items: center;
+    vertical-align: middle;
+    justify-content: space-between;
+}
+
+/*Este seletor limita o tamanho da imagem de sobre*/
+header nav img {
+    height: 42px;
+}
+
+/*Este seletor deixa o conteudo da seção sobre no topo ao lado da imagem*/
+section .container {
+    align-items: flex-start;
+}
+
+/*Este seletor cria um espaçamento superior para a imagem, parágrafo e titulo da sessão*/
+/*Com relação ao menu, além de adicionar a cor do menu a toda a seção sobre*/
+section {
+    padding: 24px 0;
+    color: #EAF7F0;
+}
+
+/*Este seletor cria uma margem inferior para o título sobre a loja*/
+section h2 {
+    margin-bottom: 16px;
+}
+
+/*Este seletor adicionar um espaçamento aos parágrafos*/
+section p {
+    margin-bottom: 8px;
+}
+
+/*Este seletor adiciona uma margem entre a img e o conteudo da primeira section*/
+.about-clinic {
+    margin-right: 32px;
+}
+
+/*Este seletor limita o tamanho da imagem da primeira section*/
+.about-clinic {
+    height: 400px;
+}
+
+/*Este seletor limita o tamanho da imagem da segunda section*/
+.clinic-specialties {
+    height: 400px;
+}
+
+/*Este seletor adiciona uma margem entre a img e o conteudo da segunda section*/
+.clinic-specialties {
+    margin-left: 32px;
+}
